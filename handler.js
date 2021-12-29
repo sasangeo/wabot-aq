@@ -70,7 +70,7 @@ module.exports = {
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('delete' in chat)) chat.delete = true
-          if (!('antiLink' in chat)) chat.antiLink = false
+          if (!('antiLink' in chat)) chat.antiLink = true
           if (!('antiSticker' in chat)) chat.antiSticker = false
           if (!('getmsg' in chat)) chat.getmsg = false
           if (!('simi' in chat)) chat.simi = false
@@ -84,7 +84,7 @@ module.exports = {
           sPromote: '',
           sDemote: '',
           delete: true,
-          antiLink: false,
+          antiLink: true,
           antiSticker: false,
           getmsg: false,
           simi: false,
